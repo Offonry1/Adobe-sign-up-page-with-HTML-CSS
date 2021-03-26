@@ -1,0 +1,135 @@
+body{
+    background-image: url(../images/adobe-backgroundimage.jpg);
+    display:flex ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.adobe-logo{
+    margin-top: 400px;
+    padding-right: 500px;
+    color:white;
+}
+.container2{
+    width:470px;
+    height: 970px;
+    background-color: #ffff;
+    padding: 30px;
+}
+
+.tag1{
+    border-top: none;
+    border-right:none;
+    border-left:none;
+
+}
+
+.div-p{
+        background-color: blue;
+        text-align:left;
+        color: white;
+        height: 50px;
+        width: 500px;
+      
+}
+p:last-child{
+    font-family:  'Open Sans',  sans-serif;
+    font-weight: 10;
+    font-size: small;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+p:nth-of-type(2){
+    border-top:blue;
+    border-left: none;
+    border-right: none;
+}
+input:nth-of-type(3){
+    border-top: red;
+    width: 120px;
+    margin: none;
+    border-left: none;
+    border-right: none;
+}
+input:nth-of-type(4){
+    border-top: red;
+    width: 400px;
+    border-left: none;
+    border-right: none;
+    margin-left: 30px;
+}
+
+label{
+    padding-left: 20px;
+}
+
+label:nth-of-type(7){
+    padding-left: 200px;
+}
+label:nth-of-type(8){
+    padding-left: 80px;
+}
+select:nth-of-type(1){
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    width: 150px;
+}
+input:nth-of-type(1){
+    border-top: blue;
+    width:100%;
+    border-left: none;
+    border-right: none;
+}
+input:nth-of-type(2){
+    border-top: blue;
+    width:100px;
+    border-left: none;
+    border-right: none;
+}
+input:nth-of-type(5){
+    border-top: blue;
+    width: 100px;
+    border-left: none;
+    border-right: none;
+}
+input:nth-of-type(6){
+    border-top: blue;
+    width: 100px;
+    border-left:none;
+    border-right: none;
+}
+select:nth-of-type(2){
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width:400px;
+}
+p:nth-of-type(3){
+    margin-left: 20px;
+}
+
+p:nth-of-type(4){
+    padding-right: 30px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    color: white;
+    margin-left: 300px;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: steelblue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: steelblue;
+}
+.header2{
+ padding-left: 20px;
+}
